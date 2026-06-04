@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.venv/
+.venv311/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+uvicorn.out.log
+uvicorn.err.log
