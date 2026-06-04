@@ -1,0 +1,20 @@
+{
+  "numeric_features": [
+    "experience_years",
+    "minimum_experience_years",
+    "skill_count",
+    "remote_allowed"
+  ],
+  "median_salary": 7366.67,
+  "excluded_target_derived_features": [
+    "skill_match_ratio",
+    "missing_skill_count",
+    "experience_gap_years",
+    "edu_gap",
+    "market_demand_score",
+    "demand_n",
+    "avg_salary",
+    "salary_percentile"
+  ],
+  "target_leakage_note": "Fitur pembentuk overall_fit_score dikeluarkan dari X agar model tidak meniru langsung rumus target."
+}
